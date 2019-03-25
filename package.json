@@ -16,6 +16,11 @@
         "webdev",
         "wlanguage"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gdesnoues/wlang.git"
+    },
+    "icon": "images/logo-pcsoft.png",
     "contributes": {
         "languages": [
             {
