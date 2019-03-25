@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.2.0] - 2019-03-25
+### Added
+- maketplace logo
+- license
+- readme info
+
 ## [0.1.0] - 2019-03-25
 ### Added
 - first maketplace publish
