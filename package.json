@@ -1,0 +1,27 @@
+{
+    "name": "wlang",
+    "displayName": "windev",
+    "description": "windev language coloration",
+    "version": "0.0.1",
+    "publisher": "gdesnoues",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords":["windev", "wlang", "webdev", "wlanguage"],
+    "contributes": {
+        "languages": [{
+            "id": "wlang",
+            "aliases": ["Windev", "wlang"],
+            "extensions": [".wrg", ".wlg"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "wlang",
+            "scopeName": "source.wlang",
+            "path": "./syntaxes/wlang.tmLanguage.json"
+        }]
+    }
+}
