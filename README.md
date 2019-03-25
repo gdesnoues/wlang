@@ -8,4 +8,4 @@ this is a windev language coloration
 
 ## Release Notes
 
-see [CHANGELOG.md](https://github.com/gdesnoues/wlang/CHANGELOG.md) for release notes
+see [CHANGELOG.md](https://github.com/gdesnoues/wlang/blob/master/CHANGELOG.md) for release notes
