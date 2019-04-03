@@ -61,7 +61,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.fr.wlang",
-					"match": "(?i)\\b(FONCTION|GLOBALE|LOCAL|PROCEDURE)\\b"
+					"match": "(?i)\\b(FONCTION|GLOBALE|INTERNE|LOCAL|PROC[EÉ]DURE)\\b"
 				},
 				{
 					"name": "keyword.control.fr.wlang",
@@ -98,7 +98,7 @@
 			"patterns": [
 				{
 					"name": "constant.character.escape.wlang",
-					"match": "\\\\."
+					"match": "\\."
 				}
 			]
 		},
@@ -109,14 +109,14 @@
 			"patterns": [
 				{
 					"name": "constant.character.escape.wlang",
-					"match": "\\\\."
+					"match": "\\."
 				}
 			]
 		},
 		"constants": {
 			"patterns": [
 				{
-					"match": "(?i)\\b(VRAI|FAUX|NULL)\\b",
+					"match": "(?i)\\b(FAUX|NULL|RC|TAB|VRAI)\\b",
 					"name": "constant.language.fr.wlang"
 				},
 				{
@@ -164,7 +164,7 @@
 					"name": "constant.language.fr.wlang"
 				},
 				{
-					"match": "(?i)\\b(J2EEAjouteEnt[êe]te|J2EEDonneR[ée]sultat|J2EEErreur|J2EEEx[ée]cute|J2EEEx[ée]cuteXML|Jauge|JaugeActive|JaugeD[ée]sactive|JaugeEx[ée]cute|JavaCharge|JavaEx[ée]cute|JavaEx[ée]cuteFonction|JourF[ée]ri[ée]|JourF[ée]ri[ée]Ajoute|JourF[ée]ri[ée]SupprimeTout|JSEv[ée]nement|JSFinEv[ée]nement|JSInfoEv[ée]nement|JSInterruptionEv[ée]nement|JSM[ée]thode|JSONEx[ée]cute|JSONEx[ée]cuteExterne|JSPropri[ée]t[ée])\\b",
+					"match": "(?i)\\b(J2EEAjouteEnt[êe]te|J2EEDonneR[ée]sultat|J2EEErreur|J2EEEx[ée]cute|J2EEEx[ée]cuteXML|Jauge|JaugeActive|JaugeD[ée]sactive|JaugeEx[ée]cute|JavaCharge|JavaEx[ée]cute|JavaEx[ée]cuteFonction|JourF[ée]ri[ée]|JourF[ée]ri[ée]Ajoute|JourF[ée]ri[ée]SupprimeTout|JSEv[ée]nement|JSFinEv[ée]nement|JSInfoEv[ée]nement|JSInterruptionEv[ée]nement|JSM[ée]thode|JSONEx[ée]cute|JSONEx[ée]cuteExterne|JSONVersVariant|JSPropri[ée]t[ée])\\b",
 					"name": "constant.language.fr.wlang"
 				},
 				{
@@ -188,7 +188,7 @@
 					"name": "constant.language.fr.wlang"
 				},
 				{
-					"match": "(?i)\\b(R[ée]cup[èe]reD[ée]finition|R[ée]cup[èe]reD[ée]finitionType|R[ée]p[èe]te|R[ée]pertoireDonn[ée]es|R[ée]pertoireWeb|R[ée]pertoireWeb|R[ée]plicInfo|R[ée]plicInitialise|R[ée]plicOuvre|R[ée]plicSynchronise|R[ée]seauConnecte|R[ée]seauD[ée]connecte|R[ée]seauMobileEtat|R[ée]seauMobileInfoConnexion|R[ée]seauNomDomaine|R[ée]seauNomRep|R[ée]seauUtilisateur|Racine|RAZ|ReconnaissanceVocaleAjouteCommande|ReconnaissanceVocaleD[ée]clenche|ReconnaissanceVocaleSupprimeCommande|RegistreCherche|RegistreCl[ée]Suivante|RegistreCopieCl[ée]|RegistreCr[ée]eCl[ée]|RegistreEcrit|RegistreExiste|RegistreListeCl[ée]|RegistreListeValeur|RegistreLit|RegistrePremi[èe]reSousCl[ée]|RegistreRenomme|RegistreSupprimeCl[ée]|RegistreSupprimeValeur|RegistreTypeValeur|RelanceProgramme|Remplace|RendezVousAffiche|RendezVousAjoute|RendezVousCr[ée]e|RendezVousDernier|RendezVousListe|RendezVousListeCalendrier|RendezVousLit|RendezVousModifie|RendezVousPr[ée]c[ée]dent|RendezVousPremier|RendezVousRAZ|RendezVousSuivant|RendezVousSupprime|RepriseSaisie|Restaure|rssAffiche|rssConstruitCha[îi]ne|rssInitialise|rssSauve|RTFAjoute|RTFCharge|RTFIns[èe]re|RTFRecherche|RTFRemplace|RTFS[ée]lection|RTFVersHTML|RTFVersTexte|RubanAdapteTaille|RubanFermeRegroupement|RubanFinModeD[ée]pli[ée]|RubanSurligneVolet|RVB|RVBBleu|RVBRouge|RVBVersHTML|RVBVert)\\b",
+					"match": "(?i)\\b(R[ée]cup[èe]reD[ée]finition|R[ée]cup[èe]reD[ée]finitionType|R[ée]p[èe]te|R[ée]pertoireDonn[ée]es|R[ée]pertoireWeb|R[ée]pertoireWeb|R[ée]plicInfo|R[ée]plicInitialise|R[ée]plicOuvre|R[ée]plicSynchronise|R[ée]seauConnecte|R[ée]seauD[ée]connecte|R[ée]seauMobileEtat|R[ée]seauMobileInfoConnexion|R[ée]seauNomDomaine|R[ée]seauNomRep|R[ée]seauUtilisateur|Racine|RAZ|ReconnaissanceVocaleAjouteCommande|ReconnaissanceVocaleD[ée]clenche|ReconnaissanceVocaleSupprimeCommande|RegistreCherche|RegistreCl[ée]Suivante|RegistreCopieCl[ée]|RegistreCr[ée]eCl[ée]|RegistreEcrit|RegistreExiste|RegistreListeCl[ée]|RegistreListeValeur|RegistreLit|RegistrePremi[èe]reSousCl[ée]|RegistreRenomme|RegistreSupprimeCl[ée]|RegistreSupprimeValeur|RegistreTypeValeur|RelanceProgramme|Remplace|RendezVousAffiche|RendezVousAjoute|RendezVousCr[ée]e|RendezVousDernier|RendezVousListe|RendezVousListeCalendrier|RendezVousLit|RendezVousModifie|RendezVousPr[ée]c[ée]dent|RendezVousPremier|RendezVousRAZ|RendezVousSuivant|RendezVousSupprime|RepriseSaisie|Restaure|RESTEnvoie|rssAffiche|rssConstruitCha[îi]ne|rssInitialise|rssSauve|RTFAjoute|RTFCharge|RTFIns[èe]re|RTFRecherche|RTFRemplace|RTFS[ée]lection|RTFVersHTML|RTFVersTexte|RubanAdapteTaille|RubanFermeRegroupement|RubanFinModeD[ée]pli[ée]|RubanSurligneVolet|RVB|RVBBleu|RVBRouge|RVBVersHTML|RVBVert)\\b",
 					"name": "constant.language.fr.wlang"
 				},
 				{
@@ -204,7 +204,7 @@
 					"name": "constant.language.fr.wlang"
 				},
 				{
-					"match": "(?i)\\b(V[ée]rifieExpressionR[ée]guli[èe]re|Val|ValideMotDePasse|VariableRAZ|VariantConvertit|VerrouAppliBloque|VerrouAppliD[ée]bloque|VerrouAppliD[ée]lai|VerrouAppliMotDePasse|VersionD[ée]mo|VersionWinDev|VersionWindows|VersPressePapier|VersPressePapierRTF|VibrationArr[êe]te|VibrationD[ée]clenche|Vid[ée]oAffiche|Vid[ée]oArr[êe]te|Vid[ée]oCapture|Vid[ée]oChangeDriver|Vid[ée]oConfigure|Vid[ée]oEtat|Vid[ée]oG[ée]n[èe]reMiniature|Vid[ée]oLanceAppli|Vid[ée]oListeDriver|Vid[ée]oListeParam[èe]tre|Vid[ée]oParam[èe]tre|VolumeBoutonPhysique|VolumeModifie|VolumeR[ée]cup[èe]re)\\b",
+					"match": "(?i)\\b(V[ée]rifieExpressionR[ée]guli[èe]re|Val|ValideMotDePasse|VariableRAZ|VariantConvertit|VariantVersJSON|VerrouAppliBloque|VerrouAppliD[ée]bloque|VerrouAppliD[ée]lai|VerrouAppliMotDePasse|VersionD[ée]mo|VersionWinDev|VersionWindows|VersPressePapier|VersPressePapierRTF|VibrationArr[êe]te|VibrationD[ée]clenche|Vid[ée]oAffiche|Vid[ée]oArr[êe]te|Vid[ée]oCapture|Vid[ée]oChangeDriver|Vid[ée]oConfigure|Vid[ée]oEtat|Vid[ée]oG[ée]n[èe]reMiniature|Vid[ée]oLanceAppli|Vid[ée]oListeDriver|Vid[ée]oListeParam[èe]tre|Vid[ée]oParam[èe]tre|VolumeBoutonPhysique|VolumeModifie|VolumeR[ée]cup[èe]re)\\b",
 					"name": "constant.language.fr.wlang"
 				},
 				{
@@ -232,11 +232,15 @@
 		"variables": {
 			"patterns": [
 				{
-					"match": "(?i)\\b(abstraite|Anc[êe]tre|associatif|bool[ée]ens?|caract[èe]res?|cha[îi]nes?|classes?|compos[ée]es?|contexte|courts?|DateHeures?|Donn[ée]es?|Dur[ée]es?|dynamiques?|EmailEnt[êe]te|entiers?|fixes?|ind[eé]pendants?|Listes?|longs?|mon[eé]taires?|octets?|Pile|Police|Processus|r[ée]els?|R[ée]p[ée]titions?|RendezVous|sign[ée]e?s?|syst[èe]mes?|T[âa]cheGantt|tableaux?|upnpP[ée]ripheriques?)\\b",
+					"match": "(?i)\\b(abstraite|Anc[êe]tre|associatif|bool[ée]ens?|caract[èe]res?|cha[îi]nes?|classes?|compos[ée]es?|contexte|courts?|D[ée]finitions?|DateHeures?|Donn[ée]es?|Dur[ée]es?|dynamiques?|EmailEnt[êe]te|entiers?|fixes?|ind[eé]pendants?|Listes?|longs?|mon[eé]taires?|octets?|Pile|Police|Processus|r[ée]els?|R[ée]p[ée]titions?|RendezVous|restR[eé]ponse|restRequ[eê]te|sign[ée]e?s?|Structure|syst[èe]mes?|T[âa]cheGantt|tableaux?|upnpP[ée]ripheriques?|Variants?|xmlNoeuds?)\\b",
 					"name": "variable.parameter.fr.wlang"
 				},
 				{
-					"match": "\\.\\.[a-zA-Z]+",
+					"match": "\\.\\.[a-zA-Zéèàêâùïüë]+",
+					"name": "variable.parameter.fr.wlang"
+				},
+				{
+					"match": "[^a-zA-Zéèàêâùïüë_-]SQL\\.[a-zA-Zéèàêâùïüë]+",
 					"name": "variable.parameter.fr.wlang"
 				}
 			]
