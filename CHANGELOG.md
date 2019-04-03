@@ -6,6 +6,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.3.0] - 2019-04-03
+### Added
+- functions : JSONVersVariant, VariantVersJSON, RESTEnvoie
+- constant : RC, TAB
+- keyword : INTERNE, PROC[EÉ]DURE
+- variable : SQL., Définitions?, restRéponse, restRequête, Structure
+### Fixed
+- string end with \
+- variables .. with accents
+
 ## [0.2.0] - 2019-03-25
 ### Added
 - maketplace logo
