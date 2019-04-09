@@ -5,6 +5,10 @@ All notable changes to the "wlang" extension will be documented in this file.
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
+### Changed
+- the detection before a number becomes a positive detection ==> if caract before is "<>=,()[] "
+### Fixed
+- the comma is not a decimal separator
 
 ## [0.3.0] - 2019-04-03
 ### Added
