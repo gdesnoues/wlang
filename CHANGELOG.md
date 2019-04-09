@@ -5,6 +5,9 @@ All notable changes to the "wlang" extension will be documented in this file.
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
+
+
+## [0.4.0] - 2019-04-09
 ### Changed
 - the detection before a number becomes a positive detection ==> if caract before is "<>=,()[] "
 ### Fixed
